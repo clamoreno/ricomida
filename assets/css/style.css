@@ -1,0 +1,48 @@
+body{
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Lobster', cursive;
+    color: #373A3C;
+}
+
+h2, h4, h3 {
+    font-family: Cabin;
+    font-weight: 700;
+}
+
+h5, button, a, .recetas, .list {
+    font-family: Cabin;
+    font-weight: 400;
+}
+
+p{
+    font-family: Cabin;
+}
+
+.brand{
+    font-family: Lobster;
+}
+  
+.carousel-indicators {
+    position: relative;
+  }
+  
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:#373A3C;
+  }
+
+@media (min-width: 768px) {
+    .card-chicago {
+      font-size: 1.5rem;
+    }    
+}
+
+@media (min-width: 992px) {
+    .card-chicago {
+      font-size: 3rem;
+    }
+}
+
+
